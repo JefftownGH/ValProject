@@ -55,8 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestParameter.cs" />
-    <Compile Include="TestValParameters.cs" />
     <Compile Include="InventorApi.cs" />
     <Compile Include="ValForm.cs">
       <SubType>Form</SubType>

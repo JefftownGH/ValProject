@@ -22,17 +22,17 @@ namespace ValProject
         /// </summary>
         public ValParameters()
         { 
-            _parameters[ParameterType.LengthFirstLevel] = new Parameter(10, 10, 50);//1..100
-            _parameters[ParameterType.LengthSecondLevel] = new Parameter(7, 7, 50);
-            _parameters[ParameterType.LengthThirdLevel] = new Parameter(17, 17, 50);
-            _parameters[ParameterType.LengthFourthLevel] = new Parameter(7, 7, 50);
-            _parameters[ParameterType.LengthFifthLevel] = new Parameter(10, 10, 50);
-            _parameters[ParameterType.LengthSixthLevel] = new Parameter(10, 10, 50);//
-            _parameters[ParameterType.LengthSeventhLevel] = new Parameter(14, 14, 50);//
+            _parameters[ParameterType.LengthFirstLevel] = new Parameter(10, 10, 100);//1..100
+            _parameters[ParameterType.LengthSecondLevel] = new Parameter(7, 7, 100);
+            _parameters[ParameterType.LengthThirdLevel] = new Parameter(17, 17, 100);
+            _parameters[ParameterType.LengthFourthLevel] = new Parameter(7, 7, 100);
+            _parameters[ParameterType.LengthFifthLevel] = new Parameter(10, 10, 100);
+            _parameters[ParameterType.LengthSixthLevel] = new Parameter(10, 10, 100);//
+            _parameters[ParameterType.LengthSeventhLevel] = new Parameter(14, 14, 100);//
 
-            _parameters[ParameterType.RadiusFirstLevel] = new Parameter(10, 10, 20);//100
-            _parameters[ParameterType.RadiusSecondLevel] = new Parameter(12, 11, 30);//100
-            _parameters[ParameterType.RadiusThirdLevel] = new Parameter(16, 13, 30);//100
+            _parameters[ParameterType.RadiusFirstLevel] = new Parameter(10, 10, 100);//100
+            _parameters[ParameterType.RadiusSecondLevel] = new Parameter(12, 11, 100);//100
+            _parameters[ParameterType.RadiusThirdLevel] = new Parameter(16, 13, 100);//100
             _parameters[ParameterType.RadiusFourthLevel] = new Parameter(12, 10, 15);
             _parameters[ParameterType.RadiusFifthLevel] = new Parameter(9, 5, 11);
             _parameters[ParameterType.RadiusSixthLevel] = new Parameter(7, 5, 8);//
